@@ -1,7 +1,7 @@
 var Letter = require("./letter.js");
 
 function Word(answer) {
-  //Letter objects array
+  
   this.objArray = [];
 
   for (var i = 0; i < answer.length; i++) {
